@@ -35,7 +35,7 @@
         flex: none;
 
         width: 100%;
-        max-height: 465px;
+        max-height: 475px;
         height: 100%;
 
         scroll-snap-align: start;
@@ -47,7 +47,7 @@
         display: flex;
         justify-content: center;
         bottom: 0;
-        width: 95.5%;
+        width: 94%;
         padding: 10px;
         border-top: 1px solid #ddd;
     }
@@ -58,7 +58,7 @@
     }
 
     nav .menu ul li span {
-        font-size: 62%;
+        font-size: 60%;
     }
 
     nav .menu ul li i {
@@ -80,7 +80,7 @@
     .perfil .top-menu {
         position: absolute;
         background-color: #fff;
-        padding: 10px;
+        padding: 4px;
         right: 0;
         top: 3.5rem;
         max-width: 325px;
