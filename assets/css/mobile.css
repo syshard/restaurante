@@ -52,27 +52,31 @@
         border-top: 1px solid #ddd;
     }
 
-    nav .menu ul li{
-       text-align: center;
-       width: 50px;
+    nav .menu ul li {
+        text-align: center;
+        width: 50px;
     }
-    nav .menu ul li span{
+
+    nav .menu ul li span {
         font-size: 62%;
     }
-    nav .menu ul li i{
+
+    nav .menu ul li i {
         font-size: 15pt;
     }
+
     nav .menu ul li a {
         color: rgb(0, 0, 0);
     }
 
-    .bx-menu{
+    .bx-menu {
         background: rgba(221, 221, 221, 0.26);
         font-size: 8pt;
         cursor: pointer;
         border-radius: 50%;
         padding: 10px;
     }
+
     .perfil .top-menu {
         position: absolute;
         background-color: #fff;
@@ -80,7 +84,7 @@
         right: 0;
         top: 3.5rem;
         max-width: 325px;
-        width: 30%;
+        width: 40%;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
         border: 2px solid transparent;
@@ -116,13 +120,4 @@
     .btn-show-menu:hover {
         color: #fff;
     }
-
-    .popup{
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        text-align: center;
-    }
-
-
 }

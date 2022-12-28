@@ -114,23 +114,6 @@ main {
 }
 
 
-.popup{
-    position: absolute;
-    background-color: white;
-    width: 600px;
-    top:5%;
-    left:25%;
-    padding: 10px;
-    border-radius: 10px;
-    transform: translateY(100px);
-    transition: 2.4s;
-    box-shadow: .3rem .5rem 1.5rem .3rem rgba(0,0,0,.1);;
-}
-
-.show-modal{
-    transform: translateY(-1px);
-}
-
 
 @media only screen and (min-width:676px) {
     .container-fulid #items-wrapper #items {
