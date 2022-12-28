@@ -8,12 +8,11 @@
     transition: all .2s linear;
 }
 body {
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 html {
     font-size: 90.5%;
-    overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 7rem;
 }
@@ -64,7 +63,13 @@ a {
 
 .perfil .top-menu ul li {
     margin-right: 10px;
+    cursor: pointer;
 }
+
+.perfil .top-menu ul li:hover{
+    color:rgb(232, 226, 238);
+}
+
 
 .show-perfil {
     top: 3.5rem;
@@ -107,6 +112,25 @@ main {
 #content1 {
     grid-area: content1;
 }
+
+
+.popup{
+    position: absolute;
+    background-color: white;
+    width: 600px;
+    top:5%;
+    left:25%;
+    padding: 10px;
+    border-radius: 10px;
+    transform: translateY(100px);
+    transition: 2.4s;
+    box-shadow: .3rem .5rem 1.5rem .3rem rgba(0,0,0,.1);;
+}
+
+.show-modal{
+    transform: translateY(-1px);
+}
+
 
 @media only screen and (min-width:676px) {
     .container-fulid #items-wrapper #items {
