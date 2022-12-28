@@ -14,7 +14,7 @@
 
     #items {
         width: 100vw;
-        height: 130.5vw;
+        height: 100%;
         background-color: rgba(255, 255, 255, 0);
     }
 
@@ -35,7 +35,8 @@
         flex: none;
 
         width: 100%;
-        height: 400px;
+        max-height: 465px;
+        height: 100%;
 
         scroll-snap-align: start;
         pointer-events: none;
@@ -47,19 +48,19 @@
         justify-content: center;
         bottom: 0;
         width: 95.5%;
-        padding: 20px;
+        padding: 10px;
         border-top: 1px solid #ddd;
     }
 
     nav .menu ul li{
        text-align: center;
-       width: 70px;
+       width: 50px;
     }
     nav .menu ul li span{
-        font-size: 9pt;
+        font-size: 62%;
     }
     nav .menu ul li i{
-        font-size: 20pt;
+        font-size: 15pt;
     }
     nav .menu ul li a {
         color: rgb(0, 0, 0);
@@ -67,7 +68,7 @@
 
     .bx-menu{
         background: rgba(221, 221, 221, 0.26);
-        font-size: 16pt;
+        font-size: 8pt;
         cursor: pointer;
         border-radius: 50%;
         padding: 10px;
