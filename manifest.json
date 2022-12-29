@@ -1,11 +1,13 @@
 {
-  "name": "Restaurante",
-  "short_name": "syshard",
-  "start_url": ".",
-  "display": "standalone",
-  "background_color": "#fff",
+  "name": "syshard",
+  "short_name": "Restaurante",
   "description": "sistema de gestao de stock e vendas de Restaurante",
-  "theme_color": "#2A3443",
+  "theme_color": "#282828",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "any",
+  "scope": "/",
+  "start_url": "/",
   "icons": [
     {
       "src": "./img/512X512.png",
@@ -19,3 +21,4 @@
     }
   ]
 }
+
