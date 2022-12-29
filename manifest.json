@@ -1,6 +1,6 @@
 {
-  "name": "syshard",
-  "short_name": "Restory",
+  "name": "systory",
+  "short_name": "restoty",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#fff",
