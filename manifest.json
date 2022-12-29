@@ -1,10 +1,10 @@
 {
-  "name": "CarZone",
-  "short_name": "Carzone",
+  "name": "Restaurante",
+  "short_name": "syshard",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#2A3443",
-  "description": "carselling application",
+  "background_color": "#fff",
+  "description": "sistema de gestao de stock e vendas de Restaurante",
   "theme_color": "#2A3443",
   "icons": [
     {
