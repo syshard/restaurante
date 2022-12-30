@@ -121,4 +121,12 @@
     .btn-show-menu:hover {
         color: #fff;
     }
+
+    #body-items{
+        background-color: white;
+        border-right: 0;
+    }
+
+
+
 }
