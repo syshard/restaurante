@@ -15,3 +15,7 @@ $('.btn-add').click(function(){
 $('.show-add').click(function(){
     alert("ok")  
 })
+
+$('.card').click(function(){
+    $('.card').toggleClass('virar-cartao');   
+})

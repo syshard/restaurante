@@ -1,11 +1,11 @@
 {
-  "name": "syshard",
-  "short_name": "Restory",
+  "name": "CarZone1",
+  "short_name": "Carzone2",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#fff",
-  "description": "sistema de gestao de stock e vendas de Restaurante",
-  "theme_color": "#282828",
+  "background_color": "#2A3443",
+  "description": "carselling application",
+  "theme_color": "#2A3443",
   "icons": [
     {
       "src": "./img/512X512.png",
@@ -13,7 +13,7 @@
       "type": "image/png"
     },
 {
-      "src": "./img/6X96.png",
+      "src": "./img/96X96.png",
       "sizes": "96x96",
       "type": "image/png"
     }
