@@ -154,6 +154,20 @@
     .lista-produto img{
         width:50px;
         height: 50px;
-     }
+    }
+
+    .buttons{
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .buttons .option-menu{
+        width: 70%;
+        justify-content: space-around;
+    }
+
+    .buttons .option-menu i{
+        display: none;
+    }
 
 }
