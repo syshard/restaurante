@@ -19,3 +19,7 @@ $('.show-add').click(function(){
 $('.card').click(function(){
     $('.card').toggleClass('virar-cartao');   
 })
+
+$('.bx-search').click(function(){
+    $('.textbusca').toggleClass('long');   
+})

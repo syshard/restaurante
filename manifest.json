@@ -1,11 +1,11 @@
 {
-  "name": "CarZone1",
-  "short_name": "Carzone2",
+  "name": "syshard manager",
+  "short_name": "ResStory",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#2A3443",
-  "description": "carselling application",
-  "theme_color": "#2A3443",
+  "background_color": "#282828",
+  "description": "sistema de gestao e vendas direccionadas",
+  "theme_color": "#282828",
   "icons": [
     {
       "src": "./img/512X512.png",

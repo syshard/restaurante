@@ -128,8 +128,7 @@ main {
     justify-content: space-between;
     margin: 5px;
     border-radius: 5px;
-    padding: 10px;
-    background-color: aliceblue;
+    padding: 5px;
     margin-bottom: 5px;
     margin-top: 10px;
 }
@@ -145,20 +144,41 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    overflow: scroll;
+
 }
 
 .painel-control{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: rgb(150, 214, 166);
+    background-color: rgba(236, 235, 235, 0.26);
+    box-shadow: 0px 3px 7px #c2c0c0;    
     width: 500px;
     height: 100px;
-    margin: 3px;
+    margin: 5px;
     padding: 10px;
-    text-align: center;
-    border-radius: 5px;
+    border-radius: 6px;
+    cursor: pointer;
 }
+
+.painel-control span strong{
+    color:red
+}
+
+.info-n{
+    position: relative;
+    margin-top: -65px;
+    margin-left: 180px;
+}
+
+.info-n i{
+    font-size: 100%;
+    color:rgba(73, 73, 73, 0.658);
+    
+}
+
+.painel-control span{
+    font-size: 62%;
+}
+
 .left-menu{
     display: flex;
     flex-direction: column;
@@ -201,6 +221,10 @@ main {
     transform-style: preserve-3d;
     transition: all 1.5s ease;
     cursor: pointer;
+    background-image: url("../../image/icons/mapa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .virar-cartao{
@@ -212,9 +236,9 @@ main {
     width: 100%;
     height: 100%;
     box-shadow: 0px 3px 10px #bebbbb;
-    border-radius: 15px;
+    border-radius: 10px;
     backface-visibility: hidden;
-    background: rgb(40, 40, 40);
+    background: rgba(40, 40, 40, 0.911);
     color: #fff;
     z-index: 1;
 }
@@ -248,9 +272,9 @@ main {
     width: 100%;
     height: 100%;
     box-shadow: 0px 3px 10px #bebbbb;
-    border-radius: 15px;
+    border-radius: 10px;
     backface-visibility: hidden;
-    background: rgb(40, 40, 40);
+    background: rgba(40, 40, 40, 0.911);
     color: #fff;
     transform: rotateY(180deg);
 }
@@ -326,10 +350,15 @@ main {
 }
 
 .buttons{
+    cursor: pointer;
     display: flex;
     width: 92%;
     flex-direction: column;
     margin: 10px;
+}
+
+.buttons .option-menu:hover{
+    background-color: #46464659;
 }
 
 .buttons .option-menu i{
@@ -344,6 +373,33 @@ main {
     border-radius: 4px;
     margin-top: 10px;
     width: 100%;
+}
+
+.busca{
+    display: flex;
+    align-items: center;
+}
+.busca input{
+    background-color: #ddd;
+    padding: 2px;
+    width: 7px;
+}
+.busca .long{
+    width: 200px;
+}
+.busca .btn-in{
+    padding: 5px;
+    font-size: 12pt;
+    background-color: rgb(190, 187, 187);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.busca .bx-search{
+    background-color: #ddd;
+    padding: 5px;
+    font-size: 12pt;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0px;
 }
 
 
@@ -371,6 +427,11 @@ main {
 
     .lista{
         text-align: center;
+    }
+
+    .painel{
+        overflow: hidden;
+    
     }
 
 }
